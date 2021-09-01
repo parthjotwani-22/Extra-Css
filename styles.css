@@ -21,7 +21,7 @@ div.container div.ball{
 
 div.ball{
     animation-duration: 2s;
-    animation-name: stylish-rotate;
+    animation-name: stylish-rotate,bounce;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -29,16 +29,16 @@ div.ball{
 }
 div.ball:nth-child(2){
     animation-delay: 0.5s;
-    animation-name: bounce;
+    animation-name: bounce,stylish-rotate;
 
 }
 div.ball:nth-child(3){
     animation-delay: 1s;
-    animation-name: bounce;
+    animation-name: bounce,stylish-rotate;
 }
 div.ball:nth-child(5){
     animation-delay: 1s;
-    animation-name: bounce;
+    animation-name: bounce,stylish-rotate;
 }
 /* div.container div.ball:hover{ */
     /* transform: translateX(40px); */
