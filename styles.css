@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+div.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+div.container div.ball{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.49, -0.03, 0.58, 1);;
+}
+div.container div.ball:hover{
+    transform: translateX(40px);
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: greenyellow;
+    margin-top: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     /* transform: rotateZ(120deg); */
+    /* transform: scale(2); */
+}
